@@ -1,0 +1,73 @@
+# main links
+main:
+  - title: "Secciones"
+    url: /secciones/
+    description: "por autor"
+  - title: "Categorías"
+    url: /categorias/
+    children:
+      - title: "Cine"
+        url: /categorias/cine/
+  - title: "Convocatoria"
+    url: /convocatoria/
+  - title: "Nosotros"
+    url: /nosotros/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contacto"
+    url: /contacto/
+  - title: "Archivo"
+    url: /archivo/
+  - title: "Home"
+    url: /home/
+  - title: "Posts"
+    url: /posts/
+
+contenidos:
+  - title: "SECCIONES"
+    url: /secciones/
+    children:
+      - title: "La Casita de Lectura"
+        url: /secciones/la-casita-de-lectura/
+      - title: "B"
+        url: /secciones/B/
+      - title: "C"
+        url: /secciones/C/
+      - title: D
+        url: /secciones/D/
+
+  - title: "CATEGORÍAS"
+    url: /categorias/
+    children:
+      - title: "Series"
+        url: /categorias/series/
+      - title: "B"
+        url: /categorias/B/
+      - title: "C"
+        url: /categorias/C/
+      - title: "D"
+        url: /categorias/D/
+      - title: "E"
+        url: /categorias/E/
+
+  - title: "MEDIOS"
+    url: /medios/
+    children:
+      - title: "A"
+        url: /medios/A/
+      - title: "B"
+        url: /medios/B/
+      - title: "C"
+        url: /medios/C/
+      - title: "D"
+        url: /medios/D/
+      - title: "E"
+        url: /medios/E
+
+custom-web:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."

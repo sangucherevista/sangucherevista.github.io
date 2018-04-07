@@ -1,0 +1,78 @@
+---
+title: Nosotros
+layout: collection
+permalink: /nosotros/
+collection: nosotros
+entries_layout: grid
+classes: wide
+
+feature_row:
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "100% free"
+    title: "Joaquín Maldonado"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
+    url: "/docs/license/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "customizable"
+    title: "Sofía Flores"
+    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+  - image_path: /assets/images/mm-responsive-feature.png
+    alt: "fully responsive"
+    title: "Joaquín Henríquez"
+    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    url: "/docs/layouts/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "100% free"
+    title: "Andrea Aranda"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
+    url: "/docs/license/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+
+feature_row2:
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "customizable"
+    title: "Sofía Flores"
+    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+  - image_path: /assets/images/mm-responsive-feature.png
+    alt: "fully responsive"
+    title: "Joaquín Henríquez"
+    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    url: "/docs/layouts/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "100% free"
+    title: "Andrea Aranda"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
+    url: "/docs/license/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+
+---
+
+SÁNGUCHES
+
+{% include feature_row id="intro" type="center" %}
+{% include feature_row %}
+
+COLABORADORES
+
+{% include feature_row2 id="intro" type="center" %}
+
+{% include feature_row2 %}
+
+{% for item in site.nosotros %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+{% endfor %}
