@@ -27,7 +27,7 @@ end
 platforms 'mingw', 'mswin', 'x64_mingw', 'jruby' do
   gem "tzinfo-data"
 
-  group: test do
+  group :test do
     # Performance-booster for watching directories on Windows
     gem "wdm", "~> 0.1.0" if Gem.win_platform?
   end
