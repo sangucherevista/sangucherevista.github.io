@@ -1,4 +1,4 @@
 ---
-title: "Sofía Flores"
+title: "José Gutiérrez"
 excerpt: BIOGRAFÍA AQUÍ
 ---

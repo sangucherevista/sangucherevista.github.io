@@ -1,4 +1,4 @@
 ---
-title: "Joaquín Maldonado"
+title: "Andrea Aranda"
 excerpt: BIOGRAFÍA AQUÍ
 ---

@@ -1,4 +1,4 @@
 ---
-title: "Joaquín Maldonado"
+title: "Joaquín Henríquez"
 excerpt: BIOGRAFÍA AQUÍ
 ---
