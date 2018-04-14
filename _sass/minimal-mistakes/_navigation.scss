@@ -89,7 +89,7 @@
       border-radius: 0;
 
       &:hover {
-        color: $link-color-hover;
+        background: rgba($muted-text-color, 0.5);
       }
 
       &.current,
