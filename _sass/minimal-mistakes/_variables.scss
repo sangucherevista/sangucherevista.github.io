@@ -65,11 +65,11 @@ $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $coral !default;
 
-$primary-color: #7a8288 !default;
+$primary-color: $black !default;
 $success-color: #62c462 !default;
 $warning-color: #f89406 !default;
 $danger-color: #ee5f5b !default;
-$info-color: $coral !default;
+$info-color: #52adc8 !default;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;
