@@ -89,10 +89,6 @@
   height: auto;
   opacity: 1;
   line-height: 200px;
-  float: right;
-  -webkit-animation: $intro-transition;
-  animation: $intro-transition;
-  -webkit-animation-delay: 0.15s;
-  animation-delay: 0.15s;
+  float: left;
   transition: .3s ease;
 }
