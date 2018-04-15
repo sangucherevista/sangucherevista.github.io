@@ -215,7 +215,7 @@
     overflow: hidden;
 
     li {
-      -webkit-box-flex: 0;
+      $masthead-link-color-hovert-box-flex: 0;
       flex: none;
     }
 
@@ -228,7 +228,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $white;
+        background: $masthead-link-color-hover;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
