@@ -184,10 +184,6 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
-  
-  &:active {
-      color: $black;
-    }
 
     &:hover {
       color: $black;
@@ -226,10 +222,6 @@
 
     a {
       position: relative;
-    
-    &:active {
-        color: $black;
-      }
 
       &:before {
         content: "";
