@@ -185,10 +185,10 @@
     color: $masthead-link-color;
     text-decoration: none;
 
-    &:hover {
+    &:hover,
+      &.current {
       color: $black;
-    }
-
+      
     &.site-title {
       margin-left: 0;
     }
