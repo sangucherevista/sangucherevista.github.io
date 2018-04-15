@@ -11,6 +11,10 @@
   animation-delay: 0.15s;
   z-index: 20;
   background: $coral;
+  
+  &.ssticky {
+      overflow-x: auto;
+    }
 
   &__inner-wrap {
     @include clearfix;
@@ -28,10 +32,6 @@
       max-width: $x-large;
     }
     
-    &.ssticky {
-      overflow-x: auto;
-    }
-
     nav {
       z-index: 10;
     }
