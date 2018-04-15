@@ -186,7 +186,8 @@
     text-decoration: none;
 
     &:hover,
-      &.current {
+    &.current,
+    &:active {
       color: $black;
     }
       
