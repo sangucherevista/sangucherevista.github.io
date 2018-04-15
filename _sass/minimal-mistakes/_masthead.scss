@@ -11,6 +11,10 @@
   animation-delay: 0.15s;
   z-index: 20;
   background: $coral;
+  
+  &:sticky2 {
+  
+  }
 
   &__inner-wrap {
     @include clearfix;
