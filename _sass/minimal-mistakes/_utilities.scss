@@ -375,6 +375,7 @@ body:hover .visually-hidden button {
     @include clearfix();
     position: -webkit-sticky;
     position: sticky;
+    margin: 0;
 
     > * {
       display: block;
