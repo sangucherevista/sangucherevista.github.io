@@ -243,7 +243,7 @@
         transform: scaleX(1); /* reveal*/
       }
       
-      &.current {
+      &:active {
         color: $black;
       }
     }
