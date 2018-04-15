@@ -16,7 +16,6 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: flex;
@@ -29,11 +28,6 @@
     }
     
     &.sticky {
-      overflow-y: auto;
-      /* calculate height of nav list */
-      height: calc(
-        100vh - 90px - 2em
-      ); // viewport height - approx. masthead height - main content top margin
     }
     
     nav {
