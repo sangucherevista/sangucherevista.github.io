@@ -184,6 +184,10 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+  
+  &:active {
+      color: $black;
+    }
 
     &:hover {
       color: $black;
@@ -193,9 +197,6 @@
       margin-left: 0;
     }
     
-    &:active {
-      color: $black;
-    }
  }
 
   &__toggle {
