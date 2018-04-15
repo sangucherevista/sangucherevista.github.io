@@ -199,14 +199,10 @@
     align-self: stretch;
     border: 0;
     outline: none;
-    border: 3px solid $white;
-    color: #fff;
-    background-color: $coral;
+    border: 1px solid $white;
+    color: $coral;
+    background-color: $white;
     cursor: pointer;
-    
-    &:hover {
-      color: $black;
-    }
   }
 
   .visible-links {
