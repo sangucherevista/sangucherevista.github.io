@@ -203,6 +203,10 @@
     color: #fff;
     background-color: $coral;
     cursor: pointer;
+    
+    &:hover {
+      color: $black;
+    }
   }
 
   .visible-links {
