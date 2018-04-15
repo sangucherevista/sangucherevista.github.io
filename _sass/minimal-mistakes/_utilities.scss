@@ -371,12 +371,9 @@ body:hover .visually-hidden button {
 }
 
 .sticky2 {
-  @include breakpoint($large) {
-    @include clearfix();
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-  }
 }
 
 /*
