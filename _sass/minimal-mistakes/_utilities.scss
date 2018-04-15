@@ -370,6 +370,18 @@ body:hover .visually-hidden button {
   }
 }
 
+.ssticky {
+  @include breakpoint($large) {
+    @include clearfix();
+    position: -webkit-sticky;
+    position: sticky;
+
+    > * {
+      display: block;
+    }
+  }
+}
+
 /*
    Wells
    ========================================================================== */
