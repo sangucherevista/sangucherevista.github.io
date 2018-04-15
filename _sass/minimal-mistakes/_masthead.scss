@@ -12,10 +12,6 @@
   z-index: 20;
   background: $coral;
   
-  &.sticky2 {
-  
-  }
-
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
@@ -30,6 +26,14 @@
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+    }
+    
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list */
+      height: calc(
+        100vh - 90px - 2em
+      ); // viewport height - approx. masthead height - main content top margin
     }
     
     nav {
