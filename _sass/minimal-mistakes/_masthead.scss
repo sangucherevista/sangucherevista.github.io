@@ -29,11 +29,7 @@
     }
     
     &.sticky {
-      overflow-y: auto;
-      /* calculate height of nav list */
-      height: calc(
-        100vh 
-      ); // viewport height - approx. masthead height - main content top margin
+      
     }
 
     nav {
