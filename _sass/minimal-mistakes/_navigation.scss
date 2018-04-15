@@ -225,6 +225,10 @@
 
     a {
       position: relative;
+    
+    &:active {
+        color: $black;
+      }
 
       &:before {
         content: "";
@@ -244,10 +248,6 @@
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); /* reveal*/
-      }
-      
-      &:active {
-        color: $black;
       }
     }
   }
