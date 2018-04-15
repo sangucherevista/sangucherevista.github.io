@@ -30,6 +30,8 @@
     }
     
     &.sticky {
+        @include breakpoint($x-large) {
+        max-width: $x-large;
     }
     
     nav {
