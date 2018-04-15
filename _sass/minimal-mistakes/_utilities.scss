@@ -370,7 +370,7 @@ body:hover .visually-hidden button {
   }
 }
 
-.ssticky {
+.sticky2 {
   @include breakpoint($large) {
     @include clearfix();
     position: -webkit-sticky;
