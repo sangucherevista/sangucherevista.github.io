@@ -71,8 +71,7 @@
 
   li {
     display: block;
-    float: left;
-    margin-left: -1px;
+    float: center;
 
     a {
       display: block;
@@ -126,7 +125,7 @@
   &--pager {
     display: block;
     padding: 1em 2em;
-    float: left;
+    float: center;
     width: 50%;
     font-family: $sans-serif;
     font-size: $type-size-5;
@@ -147,7 +146,6 @@
     }
 
     &:last-child {
-      margin-left: -1px;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
