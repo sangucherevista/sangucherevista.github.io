@@ -30,8 +30,6 @@
     }
     
     &.sticky {
-        @include breakpoint($x-large) {
-        max-width: $x-large;
     }
     
     nav {
@@ -100,7 +98,7 @@
 #logo1 {
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   height: auto;
   opacity: 1;
   transition: .3s ease;
