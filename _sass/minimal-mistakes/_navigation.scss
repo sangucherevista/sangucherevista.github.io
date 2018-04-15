@@ -192,6 +192,10 @@
     &.site-title {
       margin-left: 0;
     }
+    
+    &.current {
+        color: $black;
+      }
   }
 
   &__toggle {
