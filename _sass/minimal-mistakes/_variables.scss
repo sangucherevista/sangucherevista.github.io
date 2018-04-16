@@ -21,6 +21,7 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$lucida: "Lucida Sans Unicode", "Lucida Grande", sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -31,7 +32,7 @@ $garamond: Garamond, serif !default;
 
 /* global */
 $global-font-family: $sans-serif !default;
-$header-font-family: "Lucida Grande" !default;
+$header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
