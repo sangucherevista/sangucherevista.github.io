@@ -98,8 +98,7 @@
       }
 
       &.disabled {
-        color: $white;
-        background: $light-gray;
+        color: $muted-text-color;
         pointer-events: none;
         cursor: not-allowed;
       }
