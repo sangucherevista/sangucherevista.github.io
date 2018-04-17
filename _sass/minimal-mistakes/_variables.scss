@@ -58,10 +58,10 @@ $coral: coral !default;
 $orange-red: #ff6c53 !default;
 
 /* mixins */
-$gray: mix($white, $black, 50%) !default;
-$dark-gray: mix($black, $gray, 40%) !default;
-$darker-gray: mix($black, $gray, 60%) !default;
-$light-gray: mix($white, $gray, 30%) !default;
+$light-gray: mix($black, $white, 30%) !default;
+$gray: mix($black, $white, 60%) !default;
+$dark-gray: mix($black, $white, 80%) !default;
+
 
 /* web */
 $sanguche-color: $orange-red !default;
@@ -74,7 +74,7 @@ $border-color: $light-gray !default;
 $border-color-light: $white !default;
 $form-background-color: $light-gray !default;
 
-$primary-color: $black !default;
+$primary-color: #7a8288 !default;
 $success-color: #62c462 !default;
 $warning-color: #f89406 !default;
 $danger-color: #ee5f5b !default;
