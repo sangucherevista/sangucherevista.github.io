@@ -114,8 +114,8 @@ $link-color: $info-color !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 25%) !default;
 $masthead-link-color: $white !default;
-$masthead-link-color-hover: mix($black, $white, 20%) !default;
-$navicon-link-color-hover: mix($black, $white, 75%) !default;
+$masthead-link-color-hover: $light-gray !default;
+$navicon-link-color-hover: $dark-gray !default;
 
 /* syntax highlighting (base16) */
 $base00: #263238 !default;
