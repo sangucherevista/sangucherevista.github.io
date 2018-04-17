@@ -88,13 +88,13 @@
       border-radius: 0;
 
       &:hover {
-        background: rgba($coral, 0.5);
+        background: rgba($sanguche-color, 0.5);
       }
 
       &.current,
       &.current.disabled {
         color: #fff;
-        background: $coral;
+        background: $sanguche-color;
       }
 
       &.disabled {
@@ -188,12 +188,12 @@
     &:hover {
       color: $black;
     }
-    
+
 
     &.site-title {
       margin-left: 0;
     }
-    
+
  }
 
   &__toggle {
@@ -203,7 +203,7 @@
     outline: none;
     border: 3px solid $white;
     color: $white;
-    background-color: $coral;
+    background-color: $sanguche-color;
     cursor: pointer;
   }
 
@@ -513,7 +513,7 @@
   width: 100%;
   list-style: none;
   font-size: 0.8rem;
-  
+
   a {
     display: block;
     padding: 0.5rem 1rem;

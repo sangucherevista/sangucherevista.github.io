@@ -51,15 +51,18 @@ $type-size-8: 0.625em !default; // ~10px
    Colors
    ========================================================================== */
 
+/* names */
 $gray: #7a8288 !default;
 $dark-gray: mix(#000, $gray, 40%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
-$coral: #ff6c53 !default;
+$coral: coral !default;
+$orange-red: #ff6c53 !default;
 $white: white !default;
 $black: black !default;
 
+$sanguche-color: $orange-red !default;
 $background-color: $white !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
@@ -67,7 +70,6 @@ $text-color: $black !default;
 $muted-text-color: mix(#fff, $text-color, 35%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
-$footer-background-color: $coral !default;
 
 $primary-color: $black !default;
 $success-color: #62c462 !default;
