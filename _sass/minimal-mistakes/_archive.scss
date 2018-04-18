@@ -36,7 +36,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  text-decoration: none;
+  text-decoration: overline;
 
   a {
     color: inherit;
@@ -68,6 +68,7 @@
   border-radius: $border-radius;
   overflow: hidden;
   img {
+    max-height: 300px;  
     width: 100%;
   }
 }
