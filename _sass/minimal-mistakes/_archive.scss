@@ -67,8 +67,7 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
-  img {
-    max-height: 300px;  
+  img { 
     width: 100%;
   }
 }
