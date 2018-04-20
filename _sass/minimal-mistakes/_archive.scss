@@ -75,6 +75,11 @@
   img { 
     width: 100%;
     height: auto;
+    opacity: 0.5;
+  }
+  &:hover {
+      opacity: 0.8;
+      
   }
 }
 
