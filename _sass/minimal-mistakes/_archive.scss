@@ -36,9 +36,8 @@
 
 .archive__item-title {
   font-family: $sans-serif-narrow;
-  line-height: initial;
-  overflow: hidden;
-  text-decoration: overline;
+  font-weight: bold;
+  text-decoration: none;
   position: absolute;
   top: 50%;
   left: 50%;
