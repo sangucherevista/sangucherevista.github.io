@@ -70,12 +70,13 @@
 }
 
 .archive__item-teaser {
+  margin-top: 1em;
   border-radius: $border-radius;
   overflow: hidden;
   img { 
     width: 100%;
     height: auto;
-    filter: brightness(50%);;
+    filter: brightness(80%);;
   }
   &:hover {
       opacity: 0.8;
