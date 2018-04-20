@@ -35,7 +35,7 @@
 }
 
 .archive__item-title {
-  font-family: $sans-serif-narrow;
+  font-family: $lucida;
   font-weight: bold;
   text-decoration: none;
   position: absolute;
@@ -44,7 +44,7 @@
   transform: translate(-50%, -50%);
 
   a {
-    color: inherit;
+    color: $text-color;
   }
 
   a + a {
