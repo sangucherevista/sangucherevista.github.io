@@ -31,12 +31,14 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
-  text-overflow: ellipsis;
   text-decoration: overline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   a {
     color: inherit;
