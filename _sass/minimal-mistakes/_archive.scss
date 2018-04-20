@@ -44,7 +44,11 @@
   transform: translate(-50%, -50%);
 
   a {
-    color: inherit;
+    color: $white;
+  }
+  
+  &:hover {
+    color: $text-color;
   }
 
   a + a {
