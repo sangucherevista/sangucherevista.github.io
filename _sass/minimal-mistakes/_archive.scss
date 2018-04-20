@@ -174,7 +174,7 @@
     }
 
     @include breakpoint($medium) {
-      max-height: 120px;
+      height: auto;
     }
   }
 }
