@@ -76,10 +76,11 @@
   img { 
     width: 100%;
     height: auto;
-    filter: brightness(80%);;
+    filter: brightness(80%);
   }
+  
   &:hover {
-      opacity: 0.8;
+      filter: none;
       
   }
 }
