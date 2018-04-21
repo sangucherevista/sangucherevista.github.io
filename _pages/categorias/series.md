@@ -7,4 +7,6 @@ taxonomy: series
 sidebar:
   title: "CONTENIDOS"
   nav: contenidos
+
+classes: wide
 ---
