@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Secciones"
+  - title: "SECCIONES"
     url: /secciones/
     description: "por autor"
-  - title: "Categorías"
+  - title: "CATEGORIAS"
     url: /categorias/
     children:
       - title: "Cine"
