@@ -1,3 +1,7 @@
-{%- for post in site.tags[include.taxonomy] -%}
-  {% include archive-single-list.html %}
-{%- endfor -%}
+
+
+<div class="grid__wrapper" >
+  {%- for post in site.tags[include.taxonomy] -%}
+    {% include archive-single-list.html type="grid"%}
+  {%- endfor -%}
+</div>
