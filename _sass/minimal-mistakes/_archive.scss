@@ -171,7 +171,7 @@
     }
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($x-large) {
     margin-left: 0; /* override margin*/
     margin-right: 0; /* override margin*/
     width: span(3 of 12);
