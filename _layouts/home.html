@@ -10,3 +10,9 @@ layout: archive-splash
 </div>
 
 {% include paginator.html %}
+
+<div class="grid__wrapper" >
+{% for post in site.categories['series'] limit: 1 %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  {% endfor %}
+</div>
