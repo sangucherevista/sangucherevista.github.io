@@ -42,6 +42,10 @@ h2 {
   font-size: $type-size-4;
 }
 
+h2.archive__item-title {
+  text-decoration: none;  
+}
+
 h3 {
   font-size: $type-size-5;
 }
