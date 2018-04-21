@@ -7,7 +7,7 @@ author: Billy Rick
 author_profile: true
 
 header:
-  teaser: /assets/images/emoticon_10x10.gif
+  teaser: /assets/images/emoticon_10x8.gif
   image: /assets/images/libro_10x6.gif
   og_image: /assets/images/libro_10x6.gif
 
