@@ -3,19 +3,20 @@ layout: archive-splash
 ---
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-<div class="grid__wrapper" >
+<div class="grid__wrapper">
   {% for post in paginator.posts limit: 6 %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">Cine</h3>
-
-<div class="grid__wrapper" >
-  {% for post in site.categories['cine'] limit: 3 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-  <h2>Ver más</h2>
+<div class="archive__item">
+    <h3 class="archive__subtitle">Cine</h3>
+    <div class="grid__wrapper" >
+     {% for post in site.categories['cine'] limit: 3 %}
+      {% include archive-single.html type="grid" %}
+     {% endfor %}
+     <h2>Ver más</h2>
+    </div>
 </div>
 
 <h3 class="archive__subtitle">La casita de lectura</h3>
