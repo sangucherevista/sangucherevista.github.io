@@ -213,16 +213,10 @@ pagination:
     before: 1000 # The number of links before the current page
     after: 1000  # The number of links after the current page
 
-paginate-multiple:
-  - paginate: 10
-    paginate_path: '/categorias/series/page:num/'
-
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-paginate-v2
-  - jekyll-paginate-multiple
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -232,7 +226,6 @@ plugins:
 whitelist:
   - jekyll-paginate
   - jekyll-paginate-v2
-  - jekyll-paginate-multiple
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
