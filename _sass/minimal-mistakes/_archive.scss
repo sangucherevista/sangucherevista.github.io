@@ -20,7 +20,8 @@
 .archive__item {
     position: relative;
     text-align: center;
-    filter: brightness(80%);
+    filter: brightness(60%);
+    text-decoration: none;
     
     &:hover {
         filter: none;
