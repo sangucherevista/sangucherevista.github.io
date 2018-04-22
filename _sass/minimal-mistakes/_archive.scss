@@ -20,7 +20,12 @@
 .archive__item {
     position: relative;
     text-align: center;
+    filter: brightness(80%);
+    
+    &:hover {
+        filter: none;
 }
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
@@ -92,10 +97,6 @@
   img { 
     width: 100%;
     height: auto;
-    filter: brightness(80%);
-  
-    &:hover {
-        filter: none;
     }
   }
 }
