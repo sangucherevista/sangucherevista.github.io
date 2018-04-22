@@ -232,6 +232,7 @@ plugins:
 whitelist:
   - jekyll-paginate
   - jekyll-paginate-v2
+  - jekyll-paginate-multiple
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
