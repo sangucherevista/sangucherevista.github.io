@@ -1,7 +1,7 @@
 ---
 layout: archive-splash
 ---
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 <div class="grid__wrapper">
   {% for post in paginator.posts limit: 6 %}
@@ -10,7 +10,7 @@ layout: archive-splash
 </div>
 
 <div>
-    <h3 class="archive__subtitle">Cine</h3>
+    <h2 class="archive__subtitle">Cine</h2>
     <div class="grid__wrapper" >
         {% for post in site.categories['cine'] limit: 3 %}
             {% include archive-single.html type="grid" %}
@@ -20,7 +20,7 @@ layout: archive-splash
 </div>
 
 <div>
-    </div><h3 class="archive__subtitle">La casita de lectura</h3>
+    </div><h2 class="archive__subtitle">La casita de lectura</h2>
     <div class="grid__wrapper" >
         {% for post in site.tags['la casita de lectura'] limit: 3 %}
             {% include archive-single.html type="grid" %}
