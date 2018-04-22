@@ -82,7 +82,7 @@ $info-color: #52adc8 !default;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;
-$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-light-default: $white !default;
 $yiq-contrasted-threshold: 175 !default;
 $yiq-debug: false !default;
 
@@ -110,9 +110,9 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
 /* links */
-$link-color: $info-color !default;
-$link-color-hover: mix(#000, $link-color, 25%) !default;
-$link-color-visited: mix(#fff, $link-color, 25%) !default;
+$link-color: $sanguche-color !default;
+$link-color-hover: mix(#000, $sanguche-color, 25%) !default;
+$link-color-visited: mix(#fff, $sanguche-color, 25%) !default;
 $masthead-link-color: $white !default;
 $masthead-link-color-hover: $light-gray !default;
 $navicon-link-color-hover: $dark-gray !default;

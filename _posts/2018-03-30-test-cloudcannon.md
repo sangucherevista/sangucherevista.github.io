@@ -3,7 +3,7 @@ title: 'Test: CLOUDCANNON'
 date: 2018-03-30 02:36:00
 layout: single
 header:
-  teaser: /assets/images/libro_10x10.gif
+  teaser: /assets/images/libro_10x6.gif
   
 categories:
   - artes visuales

@@ -20,11 +20,18 @@
 .archive__item {
     position: relative;
     text-align: center;
+    filter: brightness(70%);
+    text-decoration: none;
+    
+    &:hover {
+        filter: none;
 }
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
+  letter-spacing: 3px;
   color: $text-color;
   border-bottom: 3px solid $sanguche-color;
   text-align: left;
@@ -34,7 +41,7 @@
   }
 }
 
-.archive__item-title {
+.archive__item-title-A {
   font-family: $lucida;
   font-weight: 900;
   text-decoration: none;
@@ -42,9 +49,24 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  
   a {
     color: $text-color;
+  }
+
+  a + a {
+    opacity: 0.5;
+  }
+}
+
+.archive__item-title {
+  margin-bottom: 0.25em;
+  font-family: $sans-serif-narrow;
+  line-height: initial;
+  
+  a {
+    color: $text-color;
+    text-decoration: none;
   }
 
   a + a {
@@ -57,6 +79,14 @@
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
+  }
+}
+
+.page__content {
+  .archive__item-title-A {
+    margin-top: 1em;
+    border-bottom: none;
+    text-decoration: none;
   }
 }
 
@@ -76,10 +106,6 @@
   img { 
     width: 100%;
     height: auto;
-    filter: brightness(80%);
-  
-    &:hover {
-        filter: none;
     }
   }
 }
@@ -130,33 +156,30 @@
       margin-left: gutter(of 10);
     }
   }
-
+  
   @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-    width: span(3 of 12);
+    float: left;
+    margin-bottom: 0;
+    width: span(4 of 12);
 
-    &:nth-child(2n + 1) {
-      clear: none;
-    }
-
-    &:nth-child(4n + 1) {
+    &:nth-child(3n + 1) {
       clear: both;
+      margin-left: 0;
     }
 
-    &:nth-child(4n + 2) {
+    &:nth-child(3n + 2) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(of 12);
     }
 
-    &:nth-child(4n + 3) {
+    &:nth-child(3n + 3) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(of 12);
     }
 
-    &:nth-child(4n + 4) {
-      clear: none;
-      margin-left: gutter(1 of 12);
+    .feature__item-teaser {
+      max-height: 200px;
+      overflow: hidden;
     }
   }
 

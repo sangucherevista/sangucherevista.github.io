@@ -7,6 +7,8 @@ taxonomy: series
 sidebar:
   title: "CONTENIDOS"
   nav: contenidos
+
+classes: wide
 ---
 
 <!-- This loops through the paginated posts -->

@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Secciones"
+  - title: "SECCIONES"
     url: /secciones/
     description: "por autor"
-  - title: "Categorías"
+  - title: "CATEGORIAS"
     url: /categorias/
     children:
       - title: "Cine"
@@ -12,12 +12,8 @@ main:
     url: /convocatoria/
   - title: "Nosotros"
     url: /nosotros/
-  - title: "Blog"
-    url: /blog/
   - title: "Contacto"
     url: /contacto/
-  - title: "Archivo"
-    url: /archivo/
   - title: "Home"
     url: /home/
   - title: "Posts"

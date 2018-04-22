@@ -3,6 +3,9 @@ title:  "Test: EXCERPT"
 date:   2012-12-29 23:36:53 -0300
 layout: single
 
+author: Cornelius Fiddlebone
+author_profile: true
+
 categories: ['artes visuales', 'cine']
 #tags:
 ---

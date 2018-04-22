@@ -3,6 +3,9 @@ title:  "Test: SOCIAL SHARING"
 date:   2010-03-29 23:36:53 -0300
 layout: single
 
+author: Cornelius Fiddlebone
+author_profile: true
+
 toc: true
 toc_label: "SOCIAL SHARING"
 toc_icon: "square"

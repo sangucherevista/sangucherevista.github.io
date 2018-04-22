@@ -4,12 +4,12 @@ Billy Rick:
   uri: "http://thewhip.com"
   email: "billy@rick.com"
   bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: "/assets/images/libro_10x8.gif"
+  avatar: "/assets/images/author_test.gif"
   twitter: "extravagantman"
 
 Cornelius Fiddlebone:
   name: "Cornelius Fiddlebone"
   email: "cornelius@thewhip.com"
   bio: "I ordered what?"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/author_test.gif"
   twitter: "rhymeswithsackit"
