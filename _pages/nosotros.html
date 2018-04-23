@@ -73,6 +73,9 @@ COLABORADORES
 {% include feature_row2 %}
 
 {% for item in site.nosotros %}
+  <div class="archive__item-teaser">
+          <img src= "{{ teaser }}" alt="{{ post.title }}">
+        </div>
   <h2>{{ item.title }}</h2>
   <p>{{ item.description }}</p>
 {% endfor %}
