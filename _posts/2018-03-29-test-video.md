@@ -3,6 +3,9 @@ title:  "Test: VIDEO"
 date:   2018-03-29 23:36:53 -0300
 layout: single
 
+author: Sofia Flores
+author_profile: true
+
 header:
   teaser: /assets/images/emoticon_10x10.gif
   header:
