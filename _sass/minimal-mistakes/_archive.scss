@@ -373,6 +373,7 @@
 
     .archive__item-teaser {
       margin-bottom: 2em;
+      border-radius: 50%;
     }
 
     @include breakpoint($small) {
