@@ -3,7 +3,7 @@ title:  "Test: SOCIAL SHARING"
 date:   2010-03-29 23:36:53 -0300
 layout: single
 
-author: Sofia Flores
+author: Sofía Flores
 author_profile: true
 
 toc: true
