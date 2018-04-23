@@ -14,8 +14,6 @@ main:
     url: /nosotros/
   - title: "Contacto"
     url: /contacto/
-  - title: "Home"
-    url: /home/
   - title: "Posts"
     url: /posts/
 
