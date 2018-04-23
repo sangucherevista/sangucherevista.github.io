@@ -16,7 +16,8 @@ main:
     url: /contacto/
   - title: "Posts"
     url: /posts/
-
+    
+#sidebar
 contenidos:
   - title: "SECCIONES"
     url: /secciones/
@@ -57,7 +58,9 @@ contenidos:
         url: /medios/D/
       - title: "E"
         url: /medios/E
+        
 
+#customs
 custom-web:
   - title: "Title"
     image: http://placehold.it/350x250
