@@ -8,6 +8,8 @@ main:
     children:
       - title: "Cine"
         url: /categorias/cine/
+  - title: "Series"
+    url: /categorias/series/
   - title: "Convocatoria"
     url: /convocatoria/
   - title: "Nosotros"
