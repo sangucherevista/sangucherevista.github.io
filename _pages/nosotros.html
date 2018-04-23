@@ -74,8 +74,8 @@ COLABORADORES
 
 {% for item in site.nosotros %}
   <div class="archive__item-teaser">
-          <img src= "{{ teaser }}" alt="{{ post.title }}">
-        </div>
+    <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+  </div>
   <h2>{{ item.title }}</h2>
   <p>{{ item.description }}</p>
 {% endfor %}
