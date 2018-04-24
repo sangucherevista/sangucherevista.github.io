@@ -214,11 +214,11 @@
 }
 
 /*
-   GridB view
+   Grid3A view
    ========================================================================== */
 
 .archive {
-  .gridB__wrapper {
+  .grid3A__wrapper {
     /* extend grid elements to the right */
 
     @include breakpoint($large) {
@@ -231,7 +231,7 @@
   }
 }
 
-.gridB__item {
+.grid3A__item {
   margin-bottom: 2em;
 
   @include breakpoint($small) {
