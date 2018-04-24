@@ -7,7 +7,7 @@ author: Cornelius Fiddlebone
 author_profile: true
 
 categories: ['artes visuales', 'cine']
-#tags:
+tags: ['la casita de lectura']
 ---
 This content is before the [excerpt separator tag](http://jekyllrb.com/docs/posts/#post-excerpts).
 
