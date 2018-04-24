@@ -26,6 +26,7 @@ gallery:
     title: "EMOTICON 2"
 
 categories: ['artes visuales', 'cine']
+tags: ['la casita de lectura']
 ---
 Prueba de imagen, agregando imagen al header, utilizando teaser, image y og_image.
 
