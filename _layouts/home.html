@@ -11,7 +11,7 @@ layout: archive-splash
 
 <div>
     <h3 class="archive__subtitle">Cine</h3>
-    <div class="grid__wrapper" >
+    <div class="list__wrapper" >
         {% for post in site.categories['cine'] limit: 3 %}
             {% include archive-single-B.html type="list" %}
         {% endfor %}
@@ -21,7 +21,7 @@ layout: archive-splash
 
 <div>
     </div><h3 class="archive__subtitle">La casita de lectura</h3>
-    <div class="grid__wrapper" >
+    <div class="archive__wrapper" >
         {% for post in site.tags['la casita de lectura'] limit: 3 %}
             {% include archive-single-B.html type="archive" %}
         {% endfor %}
