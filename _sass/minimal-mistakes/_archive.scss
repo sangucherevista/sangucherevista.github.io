@@ -404,6 +404,14 @@
   .archive__item-title {
     margin-top: 0.5em;
     font-size: $type-size-5;
+    
+    @include breakpoint($small) {
+      float: right;
+    }
+
+    @include breakpoint($medium) {
+        
+    }
   }
 
   .archive__item-excerpt {
@@ -426,7 +434,7 @@
     }
     
     @include breakpoint($large) {
-      height: auto;
+      width: auto;
     }
   }
 }
