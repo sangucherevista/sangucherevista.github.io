@@ -234,11 +234,6 @@
 .grid3A__item {
   margin-bottom: 2em;
   
-  .feature__item-teaser {
-      width: 50px;
-      float: left;
-  }
-
   @include breakpoint($small) {
     float: left;
     width: span(5 of 10);
