@@ -339,13 +339,7 @@
       clear: none;
       margin-left: gutter(of 10);
     }
-    
-    .feature__item-teaser {
-      max-width: 100px;
-      overflow: hidden;
-    }
   }
-  
 
   @include breakpoint($medium) {
     float: left;
@@ -438,7 +432,7 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      max-height: auto;
+      width: 100px;
     }
 
     @include breakpoint($medium) {
