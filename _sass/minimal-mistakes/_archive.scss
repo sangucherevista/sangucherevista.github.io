@@ -233,6 +233,10 @@
 
 .grid3A__item {
   margin-bottom: 2em;
+  
+  .feature__item-teaser {
+      max-height: 200px;
+      overflow: hidden;
 
   @include breakpoint($small) {
     float: left;
