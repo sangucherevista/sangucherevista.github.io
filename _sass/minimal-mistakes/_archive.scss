@@ -417,12 +417,12 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      width: 100px;
+      max-width: 100px;
       float: left;
     }
 
     @include breakpoint($medium) {
-      height: auto;
+      max-width: 300px;
     }
     
     @include breakpoint($large) {
