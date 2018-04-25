@@ -5,7 +5,7 @@ layout: archive-splash
 
 <div class="grid__wrapper">
   {% for post in paginator.posts limit: 6 %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid3A" %}
   {% endfor %}
 </div>
 
@@ -13,7 +13,7 @@ layout: archive-splash
     <h3 class="archive__subtitle">Cine</h3>
     <div class="grid__wrapper" >
         {% for post in site.categories['cine'] limit: 3 %}
-            {% include archive-single-B.html type="list" %}
+            {% include archive-single-B.html type="grid" %}
         {% endfor %}
     </div>
     <h2>Ver más</h2>
