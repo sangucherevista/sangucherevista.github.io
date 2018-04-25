@@ -424,6 +424,10 @@
     @include breakpoint($medium) {
       height: auto;
     }
+    
+    @include breakpoint($large) {
+      height: auto;
+    }
   }
 }
 
