@@ -418,6 +418,7 @@
   .archive__item-teaser {
     @include breakpoint($small) {
       width: 100px;
+      float: left;
     }
 
     @include breakpoint($medium) {
