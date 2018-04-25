@@ -235,7 +235,8 @@
   margin-bottom: 2em;
   
   .feature__item-teaser {
-      max-width: 50px;
+      width: 50px;
+      float: left;
   }
 
   @include breakpoint($small) {
