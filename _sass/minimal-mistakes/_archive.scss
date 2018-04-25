@@ -409,7 +409,8 @@
       float: right;
     }
 
-    @include breakpoint($medium) {
+    @include breakpoint($large) {
+      margin-top: 100px;
         
     }
   }
