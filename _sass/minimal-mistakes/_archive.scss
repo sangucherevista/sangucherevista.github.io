@@ -427,6 +427,8 @@
   }
 
   .archive__item-teaser {
+      width: 100px;
+      
     @include breakpoint($small) {
       max-width: 100px;
       margin-right: 3em;
