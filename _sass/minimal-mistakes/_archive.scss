@@ -411,6 +411,7 @@
     }
 
     @include breakpoint($large) {
+      margin-top: 0;
         
     }
   }
