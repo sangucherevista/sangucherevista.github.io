@@ -407,6 +407,7 @@
     
     @include breakpoint($small) {
       float: right;
+      margin-left: auto;
     }
 
     @include breakpoint($large) {
@@ -427,7 +428,7 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      max-width: auto;
+      max-width: 200px;
       margin-right: 3em;
       float: left;
     }
