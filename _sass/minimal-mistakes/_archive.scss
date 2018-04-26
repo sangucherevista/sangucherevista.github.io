@@ -328,7 +328,7 @@
 
   @include breakpoint($small) {
     float: left;
-    width: span(10 of 10);
+    width: span(12 of 12);
     }
   
   @include breakpoint($medium) {
@@ -397,6 +397,7 @@
     
     @include breakpoint($small) {
       float: right;
+      width: span(5 of 12);
     }
 
     @include breakpoint($large) {
@@ -420,9 +421,10 @@
       float: left;
       
     @include breakpoint($small) {
-      max-width: 100px;
+      width: auto;
       margin-right: 3em;
       float: left;
+      width: span(8 of 12);
     }
 
     @include breakpoint($medium) {
