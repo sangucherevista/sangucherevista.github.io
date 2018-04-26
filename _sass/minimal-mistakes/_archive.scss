@@ -417,6 +417,7 @@
 
   .archive__item-excerpt {
     display: none;
+    position: relative;
 
     @include breakpoint($medium) {
       display: block;
@@ -426,13 +427,13 @@
 
   .archive__item-teaser {
     @include breakpoint($small) {
-      max-width: 100px;
-      margin-right: 1em;
+      max-width: auto;
+      margin-right: 3em;
       float: left;
     }
 
     @include breakpoint($medium) {
-      max-width: 300px;
+      width: auto;
     }
     
     @include breakpoint($large) {
