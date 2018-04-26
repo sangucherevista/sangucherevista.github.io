@@ -402,7 +402,7 @@
   }
 
   .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 3em;
     font-size: $type-size-5;
     
     @include breakpoint($small) {
@@ -411,7 +411,6 @@
     }
 
     @include breakpoint($large) {
-      margin-top: 100px;
         
     }
   }
