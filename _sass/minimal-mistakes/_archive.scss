@@ -416,6 +416,9 @@
   }
 
   .archive__item-teaser {
+      width: span (3 of 5);
+      float: left;
+      
     @include breakpoint($small) {
       max-height: auto;
     }
